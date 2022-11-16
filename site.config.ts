@@ -54,7 +54,7 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'Videos',
+      title: 'Lessons',
       pageId: 'e339dcfb6e9b4fa1b7be5ae380c2c3c4?v=f6ea695bbb904274afb4d5ab82f0d279'
     },
     {
