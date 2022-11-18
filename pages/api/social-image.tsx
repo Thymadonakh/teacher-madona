@@ -104,6 +104,7 @@ export default async function OGImage(req: NextRequest) {
               flexDirection: 'column',
               justifyContent: 'space-around',
               backgroundColor: '#fff',
+              opacity: 0.5,
               padding: 24,
               alignItems: 'center',
               textAlign: 'center'
@@ -130,8 +131,8 @@ export default async function OGImage(req: NextRequest) {
             )}
           </div>
         </div>
-
-        {pageInfo.authorImage && (
+<!-- Authors -->
+<!--         {pageInfo.authorImage && (
           <div
             style={{
               position: 'absolute',
@@ -154,7 +155,7 @@ export default async function OGImage(req: NextRequest) {
               }}
             />
           </div>
-        )}
+        )} -->
       </div>
     ),
     {
